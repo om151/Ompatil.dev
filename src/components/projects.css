@@ -1,0 +1,146 @@
+.projects-container {
+    margin-top: 2rem;
+    color: white;
+    text-align: left;
+    margin-top: 4.5rem;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    font-family: "Orbitron", serif;
+    text-align: left;
+    color: white;
+    margin-top: 0;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project {
+    flex: 1 1 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #2f2f2f93;
+    border-radius: 5px;
+    transition: box-shadow 0.4s ease;
+  }
+  
+  .project:hover {
+    box-shadow: 1px 2px 7px rgba(104, 104, 104, 0.677);
+  }
+  
+  .project-name {
+    margin: 0;
+    margin: 0.5rem 0rem;
+    background-color: transparent;
+  }
+  
+  .project-description {
+    margin: 0;
+    margin: 0.8rem 0rem;
+    opacity: 0.7;
+    background-color: transparent;
+  }
+  
+  .project-technologies {
+    margin: 0;
+    margin: 0.8rem 0rem;
+    background-color: transparent;
+    opacity: 0.7;
+  }
+  
+  .project-link {
+    margin: 0;
+    margin: 0.6rem 0rem;
+    background-color: transparent;
+  }
+  
+  .project-technologies strong {
+    background-color: transparent;
+  }
+  
+  .project-link a {
+    background-color: transparent;
+    opacity: 0.6;
+    transition: opacity 0.1s ease;
+  }
+  
+  .project-link a:hover {
+    opacity: 0.9;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .projects {
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .project {
+      flex: 1 1 100%;
+      max-width: 90%;
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    .project-name {
+      font-size: 1.4rem;
+    }
+  
+    .project-description,
+    .project-technologies {
+      font-size: 1rem;
+    }
+  
+    .project-link a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    *{
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      flex: 1 1 100%;
+      max-width: 95%;
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .project-name {
+      font-size: 1.2rem;
+    }
+  
+    .project-description,
+    .project-technologies {
+      font-size: 0.9rem;
+    }
+  
+    .project-link a {
+      font-size: 0.9rem;
+    }
+  }
+  

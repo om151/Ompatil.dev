@@ -1,0 +1,176 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: white;
+  /* background-color: skyblue; */
+  align-items: center;
+}
+
+.lnav{
+  font-size:  4rem;
+  font-weight: bold;
+}
+.mnav{
+  display: flex;
+  gap: 30px;
+}
+
+.mnav a{
+  color: #ffffff;
+text-decoration: none;
+font-size: 1.4rem;
+font-family: "Ubuntu", sans-serif;
+transition: color 0.25s ease,transform 0.4s ease;
+
+}
+
+.mnav a:hover{
+  color: rgb(255, 219, 153);
+  transform: scale(1.2);
+}
+.rnav{
+  display: flex;
+  /* gap: 10px; */
+ 
+
+  
+  
+}
+
+.rnav a{
+  /* margin: 0px 10px; */
+  text-decoration: none; 
+  color: white;
+  /* font-size: 1.2rem; */
+  padding: 0;
+  
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slight zoom effect */
+  
+}
+
+.tele:hover{
+  color: #1c93e3; 
+}
+.linkedin:hover{
+  color: #0077b5; 
+}
+
+.x:hover{
+  color: #1a8cd8;
+}   
+/* Responsive Design */
+
+/* For tablets and smaller laptops (768px and below) */
+@media (max-width: 930px) {
+  .navbar{
+    margin-top:1.3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lnav{
+    display: none;
+  }
+  
+  .rnav{
+    display: none;
+  }
+
+
+
+  .mnav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+  .mnav a{
+  color: #ffffff;
+text-decoration: none;
+font-size: 1.5rem;
+font-family: "Ubuntu", sans-serif;
+transition: color 0.5s ease,transform 0.2s ease;
+text-align: center;
+
+}
+}
+
+
+
+@media (max-width:580px) {
+  .mnav a{
+    font-size: 1.15rem;
+  }
+  
+}
+
+
+/* For mobile phones (428px and below) */
+@media (max-width: 428px) {
+
+  .navbar{
+    margin-top:1.6rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lnav{
+    display: none;
+  }
+  
+  .rnav{
+    display: none;
+  }
+
+
+
+  .mnav{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+  .mnav a{
+  color: #ffffff;
+text-decoration: none;
+font-size: 1rem;
+font-family: "Ubuntu", sans-serif;
+transition: color 0.5s ease,transform 0.2s ease;
+text-align: center;
+
+}
+
+}
+
+/* For larger screens (desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 10px 40px;
+  }
+
+  .mnav {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .rnav {
+    display: flex;
+  }
+}
