@@ -6,7 +6,7 @@ import { faInstagram, faLinkedin,faTwitter,faTelegramPlane } from "@fortawesome/
 export default function Navbar() {
   return (
     <div className="navbar">
-      <div className="lnav">OP</div>
+      <div className="lnav ">Om patil</div>
 
       <div className="mnav">
         <a href="#home">Home</a>
