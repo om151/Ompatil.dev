@@ -8,7 +8,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 export default function Contact(){
     return(
         <div style={{color:"white"}} id="contact">
-            <h1 className="get-in-touch">Get in touch</h1>
+            <h1 className="get-in-touch"> <p className="html">&lt;h1&gt;</p>Get in touch<p className="html">&lt;/h1&gt;</p></h1>
             <div className="contact-txt">
             Feel free to email me or message me on Telegram always open to interesting conversations and collaborations!. Whether it's a professional query, a creative project, or just to say hello, I'm just a click away!
             </div>
