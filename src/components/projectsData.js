@@ -17,7 +17,7 @@ const projectsData = [
       "A web application where users can list hotels and leave reviews.",
     technologies: ["Node.js", "Express", "MongoDB", "Mapbox", "EJS"],
     githubLink: "https://github.com/om151/VistaStay",
-    liveLink: "https://vistastay.onrender.com/",
+    liveLink: "https://vistastay-6yv0.onrender.com/listings",
   },
   {
     id: 3,
