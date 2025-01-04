@@ -37,6 +37,14 @@ const projectsData = [
     githubLink: "https://github.com/om151/CricketScoreboard",
     liveLink: "https://om151.github.io/CricketScoreboard/",
   },
+  {
+    id:5,
+    name: "Personal portfolio website",
+    description: "My personal portfolio website to showcase my skills, projects, and achievements.",
+    technologies: ["HTML", "CSS", "React.js", "JavaScript"],
+    githubLink: "https://www.ompatil.dev/",
+    liveLink: "https://www.ompatil.dev",
+  }
 ];
 
 export default projectsData;
