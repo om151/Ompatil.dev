@@ -6,8 +6,8 @@ export default function About(){
     const handleDownload = () => {
         const link = document.createElement('a');
      
-        link.download = 'OmPatilResume.pdf'; // Desired filename
-        link.href = './assets/OmPatilResume.pdf'; // Path to your resume in the public folder
+        link.download = 'Resume.pdf'; // Desired filename
+        link.href = './assets/Resume.pdf'; // Path to your resume in the public folder
         link.target = '_blank'; // Open in a new tab
         link.click();
       };
