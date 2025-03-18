@@ -24,7 +24,7 @@ const projectsData = [
     name: "Personal portfolio website",
     description: "My personal portfolio website to showcase my skills, projects, and achievements.",
     technologies: ["HTML", "CSS", "React.js", "JavaScript"],
-    githubLink: "https://www.ompatil.dev/",
+    githubLink: "https://github.com/om151/Ompatil.dev",
     liveLink: "https://www.ompatil.dev",
   },
   {
