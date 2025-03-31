@@ -3,6 +3,15 @@
 const projectsData = [
   {
     id: 1,
+    name: "Cab Booking Application",
+    description:
+      "GoRide is a cab booking platform that enables users to book rides effortlessly. With a user-friendly interface and real-time tracking, it provides a seamless experience for booking cabs, viewing trip details, and ensuring a smooth journey.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Goolge Maps API" , "Socket.io"],
+    githubLink: "",
+    liveLink: "https://go-ride-nu.vercel.app/",
+  },
+  {
+    id: 2,
     name: "Hotel Listing Platform",
     description:
       "A web application where users can list hotels and leave reviews.",
@@ -11,7 +20,7 @@ const projectsData = [
     liveLink: "https://vistastay-6yv0.onrender.com/listings",
   },
   {
-    id: 2,
+    id: 3,
     name: "Weather App",
     description:
       "A React-based weather app that fetches live weather data using an API.",
@@ -20,24 +29,24 @@ const projectsData = [
     liveLink: "https://weatherapp-om151s-projects.vercel.app/",
   },
   {
-    id:3,
+    id:4,
     name: "Personal portfolio website",
     description: "My personal portfolio website to showcase my skills, projects, and achievements.",
     technologies: ["HTML", "CSS", "React.js", "JavaScript"],
     githubLink: "https://github.com/om151/Ompatil.dev",
     liveLink: "https://www.ompatil.dev",
   },
-  {
-    id: 4,
-    name: "Cricket Scoreboard",
-    description:
-      "A web-based cricket scoreboard to track and display cricket match scores in real-time.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    githubLink: "https://github.com/om151/CricketScoreboard",
-    liveLink: "https://om151.github.io/CricketScoreboard/",
-  },
   // {
   //   id: 5,
+  //   name: "Cricket Scoreboard",
+  //   description:
+  //     "A web-based cricket scoreboard to track and display cricket match scores in real-time.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   githubLink: "https://github.com/om151/CricketScoreboard",
+  //   liveLink: "https://om151.github.io/CricketScoreboard/",
+  // },
+  // {
+  //   id: 6,
   //   name: "Simon Game",
   //   description:
   //     "A memory skill game where players repeat increasingly long sequences of lights and sounds.",
