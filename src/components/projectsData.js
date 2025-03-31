@@ -5,7 +5,7 @@ const projectsData = [
     id: 1,
     name: "Cab Booking Application",
     description:
-      "GoRide is a cab booking platform that enables users to book rides effortlessly. With a user-friendly interface and real-time tracking, it provides a seamless experience for booking cabs, viewing trip details, and ensuring a smooth journey.",
+      "GoRide is a simple and efficient cab booking platform with real-time tracking.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Goolge Maps API" , "Socket.io"],
     githubLink: "",
     liveLink: "https://go-ride-nu.vercel.app/",
