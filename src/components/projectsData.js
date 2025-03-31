@@ -3,7 +3,7 @@
 const projectsData = [
   {
     id: 1,
-    name: "Cab Booking Application",
+    name: "GoRide - Cab Booking Application",
     description:
       "GoRide is a simple and efficient cab booking platform with real-time tracking.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Goolge Maps API" , "Socket.io"],
@@ -12,7 +12,7 @@ const projectsData = [
   },
   {
     id: 2,
-    name: "Hotel Listing Platform",
+    name: "VistaStay - Hotel Listing Platform",
     description:
       "A web application where users can list hotels and leave reviews.",
     technologies: ["Node.js", "Express", "MongoDB", "Mapbox", "EJS"],
