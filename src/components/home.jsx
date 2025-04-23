@@ -38,12 +38,13 @@ export default function Home() {
       </div>
       <div className="skills">
         <span>MongoDb</span>
-        <span>React</span>
+        <span>React.js</span>
         <span>JavaScript</span>
         <span>CSS</span>
         <span>Node.js</span>
         <span>Git</span>
         <span>HTML</span>
+        <span>Express.js</span>
       </div>
     </div>
   );
