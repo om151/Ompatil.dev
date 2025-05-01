@@ -15,25 +15,37 @@ export default function Projects() {
             <h2 className="project-name">{project.name}</h2>
             <p className="project-description">{project.description}</p>
             <p className="project-technologies">
-              <strong>Technologies:</strong> {project.technologies.join(", ")}
+              <strong>Technologies:</strong>
+              <div className="tech-logo">
+              {project.technologies.map((tech) => (
+                <div key={tech} className="tech">{tech}</div>
+              ))}
+              </div>
+              
             </p>
             <p className="project-link">
-               <a
+               {project.liveLink && <a
                 href={project.liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{textDecoration:"none",color:"white"}}
+                style={{color:"white"}}
               >
                 Live Demo
-              </a>{" "}
-              |{" "}<a
+              </a> }
+              { project.githubLink && project.liveLink &&
+                " | "
+              }
+               
+              { project.githubLink && 
+                <a
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{textDecoration:"none",color:"white"}}
+                style={{color:"white"}}
               >
                 Source
               </a>
+              }
              
             </p>
            
