@@ -15,7 +15,7 @@ export default function Contact(){
             <div className="contact-div">
                 <div className="contact">
                     <h3> <FontAwesomeIcon icon={faEnvelope}/> &nbsp; Omspatil980@gmail.com</h3>
-                    <h3> <FontAwesomeIcon icon={faPhone} /> &nbsp; 9755023391</h3>
+                    <h3> <FontAwesomeIcon icon={faPhone} /> &nbsp; 97*****391</h3>
                 </div>
 
               
