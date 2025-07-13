@@ -21,29 +21,16 @@ const projectsData = [
   },
   {
     id:3,
-    name: "Twitter AI Agent",
-    description: "Developed an AI-powered tool that generates and posts tweets using Google Gemini and the MCP protocol, showcasing real-time automation and intelligent agent interaction.",
-    technologies: [ "JavaScript","Express.js" ,"Google Gemini AI","Model Context Protocol " ],
-    githubLink: "https://github.com/om151/twitter-ai-agent",
-    liveLink: "",
-  },
-  {
-    id: 4,
-    name: "Weather App",
-    description:
-      "A React-based weather app that fetches live weather data using an API.",
-    technologies: ["React", "CSS", "REST API"],
-    githubLink: "https://github.com/om151/WeatherApp",
-    liveLink: "https://weatherapp-om151s-projects.vercel.app/",
-  },
-  
-  {
-    id:5,
-    name: "Personal portfolio website",
-    description: "My personal portfolio website to showcase my skills, projects, and achievements.",
-    technologies: ["HTML", "CSS", "React.js", "JavaScript"],
-    githubLink: "https://github.com/om151/Ompatil.dev",
-    liveLink: "https://www.ompatil.dev",
+    name: "WebGenie – Website Generator AI",
+    description: `WebGenie is an AI-powered tool that generates complete website code from natural language prompts.
+Built with React and Node.js, it delivers instant, customizable site scaffolds using OpenAI.`,
+    technologies: [  "React.js",
+  "Node.js",
+  "Express.js",
+  "OpenAI API",
+  "JavaScript", ],
+    githubLink: "",
+    liveLink: "https://webgenie-66.vercel.app/",
   },
   
   // {
