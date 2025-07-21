@@ -20,14 +20,7 @@ export default function About() {
       </div>
       <div className="about-r">
         <p>
-          I’m Om Patil, a passionate Full Stack Web Developer currently pursuing
-          B.Tech at Lakshmi Narain College of Technology, Bhopal. Skilled in the
-          MERN stack (MongoDB, Express.js, React.js, Node.js), I have developed
-          full-fledged web applications like GoRide (a real-time cab booking
-          platform) and VistaStay (a dynamic hotel listing website). With a
-          strong foundation in data structures and problem-solving, I’ve also
-          solved over 150+ LeetCode problems, demonstrating my analytical and
-          coding abilities.
+         Full‑Stack Developer with expertise in React, Node.js, and modern database systems (e.g. MongoDB). Skilled in building scalable, high-performance web applications with clean architecture and intuitive UI/UX. Experienced in RESTful APIs, cloud deployment (e.g., Vercel, Render), and agile collaboration. Proven ability to solve complex problems, optimize performance, and deliver user-focused digital solutions from concept to deployment.
         </p>
         <button onClick={handleDownload}>Download CV</button>
       </div>
