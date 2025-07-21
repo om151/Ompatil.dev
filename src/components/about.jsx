@@ -20,7 +20,7 @@ export default function About() {
       </div>
       <div className="about-r">
         <p>
-         Full‑Stack Developer with expertise in React, Node.js, and modern database systems (e.g. MongoDB). Skilled in building scalable, high-performance web applications with clean architecture and intuitive UI/UX. Experienced in RESTful APIs, cloud deployment (e.g., Vercel, Render), and agile collaboration. Proven ability to solve complex problems, optimize performance, and deliver user-focused digital solutions from concept to deployment.
+         Full‑Stack Developer with expertise in React, Node.js, and modern database systems (e.g. MongoDB). Skilled in building scalable, high-performance web applications with clean architecture and intuitive UI/UX. Experienced in RESTful APIs, cloud deployment, and agile collaboration. Proven ability to solve complex problems, optimize performance, and deliver user-focused digital solutions from concept to deployment.
         </p>
         <button onClick={handleDownload}>Download CV</button>
       </div>
