@@ -34,15 +34,15 @@ Built with React and Node.js, it delivers instant, customizable site scaffolds u
   },
   
   
-  // {
-  //   id: 5,
-  //   name: "Cricket Scoreboard",
-  //   description:
-  //     "A web-based cricket scoreboard to track and display cricket match scores in real-time.",
-  //   technologies: ["HTML", "CSS", "JavaScript"],
-  //   githubLink: "https://github.com/om151/CricketScoreboard",
-  //   liveLink: "https://om151.github.io/CricketScoreboard/",
-  // },
+  {
+    id: 5,
+    name: "NyaySaathi - Your AI Legal Companion",
+    description:
+      "NyaySaathi is an AI-powered legal assistance platform that uses Retrieval-Augmented Generation (RAG) to give users instant, accurate, and reliable legal advice. Acting as “Your AI Legal Companion,” it combines verified legal knowledge with conversational AI to make legal help more accessible and affordable for everyone in India.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubLink: "https://github.com/om151/NyaySaathi",
+    liveLink: "https://nyay-saathi.vercel.app",
+  },
   // {
   //   id: 6,
   //   name: "Simon Game",
